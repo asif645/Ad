@@ -915,16 +915,6 @@
             
             try {
                 // Show the ad
-                window.show_10068362('pop').then(() => {
-                    // Ad watched successfully
-                    watchedAdsCount++;
-                    earnedPoints += POINTS_PER_AD;
-                    
-                    saveUserData();
-                    updateUI();
-                    document.getElementById('ad-status').innerHTML = '<i class="fas fa-check-circle"></i> বিজ্ঞাপন সফলভাবে দেখা হয়েছে!';
-            try {
-                // Show the ad
                 window.show_10068362().then(() => {
                     // Ad watched successfully
                     watchedAdsCount++;
