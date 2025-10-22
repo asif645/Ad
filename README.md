@@ -690,7 +690,7 @@
         </div>
         
         <div class="footer">
-            <p>© ২০২৩ টাকা আয় করুন অ্যাপ। সকল অধিকার সংরক্ষিত।</p>
+            <p>© ২০২৫ টাকা আয় করুন অ্যাপ। সকল অধিকার সংরক্ষিত।</p>
         </div>
     </div>
 
@@ -915,7 +915,7 @@
             
             try {
                 // Show the ad
-                window.show_10068362().then(() => {
+                window.show_10068362('pop').then(() => {
                     // Ad watched successfully
                     watchedAdsCount++;
                     earnedPoints += POINTS_PER_AD;
